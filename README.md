@@ -1,2 +1,2 @@
-# terraform-cloud-demo1
+# terraform-cloud-demo
 Terraform Cloud Demo
