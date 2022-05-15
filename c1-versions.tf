@@ -7,15 +7,17 @@ terraform {
       version = "~> 3.0"
     }
   }
-}
 
 
-backend "remote" {
-  organization = "veejee"
 
-  workspaces {
-    name = "terraform-cloud-demo2"
+  backend "remote" {
+    organization = "veejee"
+
+    workspaces {
+     name = "terraform-cloud-demo2"
+    }
   }
+
 }
 
 # Provider Block
